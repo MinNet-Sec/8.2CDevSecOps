@@ -1,9 +1,9 @@
 pipeline {
   agent any
-  tools { nodejs 'node24' }   // <-- your Tools name (node20/node24)
+  tools { nodejs 'node24' }   
 
   environment {
-    NOTIFY_TO = 'your.email@example.com'   // <-- change to your address
+    NOTIFY_TO = 'sing.a.minahsong@gmail.com'  
   }
 
   stages {
